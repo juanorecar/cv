@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+  <head> 
+  
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juan Orellana Carretero</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
@@ -59,7 +64,7 @@
             diseño de circuitos, programación en distintos lenguajes y varios
             ámbitos en tecnología.
           </p>
-          <button class="profile-btn">Descargar cv</button>
+          <a class="profile-btn" href="/CV_JUAN_ORELLANA_CARRETERO.pdf" download> Descargar CV</a>
         </div>
         <span class="profile-img-section">
           <img
@@ -103,7 +108,7 @@
             </p>
           </div>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/xanyynpk" method="POST">
+        <form class="contact-form" name="contact" action="https://formspree.io/f/xanyynpk" method="POST" netlify>
           <div class="contact-form-group">
             <label for="name">Nombre</label>
             <input required type="text" name="name" id="name" />
